@@ -9,7 +9,7 @@
 .LSOverride
 .babelrc
 .eslintrc.json
-node_modules
+node_modules/*
 
 
 # Webpack
