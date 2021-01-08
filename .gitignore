@@ -7,7 +7,14 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-node_modules/
+.babelrc
+.eslintrc.json
+node_modules
+
+
+# Webpack
+
+
 
 # Icon must end with two \r
 Icon
