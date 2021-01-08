@@ -1,0 +1,31 @@
+// Colors
+$header-bg: #061621;
+$white: #fff;
+$black: #090909;
+$primary-color: #0066cc;
+$dark-grey: #333333;
+$grey-bg: #fafafa;
+
+//Fonts
+$base-font: 'Lato', sans-serif;
+$base-font-size: 16px;
+$thin-font: 100;
+$light-font: 300;
+$regular-font: 400;
+$big-title-size: 50px;
+$small-title-size: 24px;
+
+// Paths
+$img-url: '../img';
+$font-url: '../fonts';
+$fa-font-path: '../../node_modules/@fortawesome/fontawesome-free/webfonts';
+
+// BS container widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+);
+
+$grid-columns: 60;

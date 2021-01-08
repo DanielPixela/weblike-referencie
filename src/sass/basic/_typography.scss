@@ -1,0 +1,64 @@
+@include fontface('Font Awesome');
+
+// Base
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $base-font !important;
+  margin: 0;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a,
+button,
+i {
+  transition: color 0.2s ease-in-out;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none !important;
+}
+
+.noscroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+// Colors
+.white-c {
+  color: $white !important;
+}
+
+.grey-bg {
+  background-color: $grey-bg;
+}
+
+.primary-bg {
+  background-color: $primary-color;
+}
+
+// Typography
+
+.w-70 {
+  @include media-breakpoint-up(lg) {
+    width: 70%;
+  }
+}
+
+.mw-50 {
+  @include media-breakpoint-up(lg) {
+    max-width: 50%;
+  }
+}

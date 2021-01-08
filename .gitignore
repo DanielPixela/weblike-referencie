@@ -1,0 +1,29 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+node_modules/
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
