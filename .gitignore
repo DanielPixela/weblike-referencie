@@ -12,7 +12,6 @@
 node_modules/
 
 
-# Webpack
 
 
 
@@ -24,7 +23,7 @@ Icon
 ._*
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode/
 !.vscode/tasks.json
 !.vscode/launch.json
 *.code-workspace

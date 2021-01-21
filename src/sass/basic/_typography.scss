@@ -1,15 +1,6 @@
-@include fontface('Font Awesome');
+// @include fontface('Font Awesome');
 
-// Base
-body,
-html {
-  overflow-x: hidden;
-}
-
-body {
-  font-family: $base-font !important;
-  margin: 0;
-}
+// Default typography
 
 ul {
   margin-bottom: 0 !important;
@@ -22,7 +13,7 @@ a {
 a,
 button,
 i {
-  transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 button {
@@ -31,9 +22,19 @@ button {
   outline: none !important;
 }
 
-.noscroll {
-  overflow: hidden;
-  height: 100%;
+.list-inline-item {
+  margin-right: 0 !important;
+}
+
+p {
+  color: $text-color;
+  line-height: 1.8;
+}
+
+.big-title {
+  color: $primary-color;
+  font-weight: $font-weight-bold;
+  margin-bottom: 30px;
 }
 
 // Colors
@@ -47,18 +48,4 @@ button {
 
 .primary-bg {
   background-color: $primary-color;
-}
-
-// Typography
-
-.w-70 {
-  @include media-breakpoint-up(lg) {
-    width: 70%;
-  }
-}
-
-.mw-50 {
-  @include media-breakpoint-up(lg) {
-    max-width: 50%;
-  }
 }

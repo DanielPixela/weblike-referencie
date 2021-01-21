@@ -1,0 +1,15 @@
+/* 
+*********
+SLIDER
+*********
+*/
+
+section.slider {
+  padding: 75px 0;
+  background: {
+    image: url('#{$img-url}/arrows-bg.png');
+    position: 5% 0;
+    repeat: no-repeat;
+    color: $white;
+  }
+}

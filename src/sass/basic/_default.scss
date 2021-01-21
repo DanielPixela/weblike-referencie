@@ -1,0 +1,33 @@
+// Default style
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $base-font !important;
+  margin: 0;
+  background: $body-bg;
+}
+
+.noscroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+// Custom width
+.w-70 {
+  @include media-breakpoint-up(lg) {
+    width: 70%;
+  }
+}
+
+.mw-50 {
+  @include media-breakpoint-up(lg) {
+    max-width: 50%;
+  }
+}
+
+main {
+  margin-top: 116px;
+}

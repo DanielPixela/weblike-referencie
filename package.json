@@ -13,8 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
+    "aos": "^2.3.4",
     "bootstrap": "^4.5.3",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "lodash-es": "^4.17.20",
+    "swiper": "^6.4.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

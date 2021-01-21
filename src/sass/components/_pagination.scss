@@ -1,0 +1,30 @@
+.pagination-wrap {
+  max-width: 350px;
+  margin: 0 auto 10px auto;
+  .arrow i {
+    color: $primary-color;
+    font-size: rem(35px);
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  ul {
+    max-width: 195px;
+    width: 100%;
+    padding-bottom: 7px;
+    border-bottom: 1px solid $text-color;
+    li {
+      &.active a {
+        opacity: 1;
+        color: $primary-color;
+      }
+      a {
+        color: $text-color;
+        opacity: 0.5;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

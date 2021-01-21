@@ -1,0 +1,67 @@
+.base-btn {
+  display: inline-block;
+  color: $primary-color;
+  font-weight: $semibold-font;
+  background-color: $body-bg;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.16);
+  height: 45px;
+  line-height: 45px;
+  padding: 0 42px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  margin: 15px 0;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  span {
+    position: relative;
+    z-index: 10;
+  }
+  &:after {
+    content: ' ';
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    background-color: $primary-color;
+    opacity: 0.6;
+    border-radius: 50%;
+    z-index: 5;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out, opacity 0.4s ease-in-out;
+    transform-origin: top right;
+    opacity: 0;
+  }
+  &:hover,
+  &:focus {
+    color: $white;
+    box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.16);
+    &:after {
+      transform: scale(3);
+      opacity: 1;
+    }
+  }
+}
+
+.scrollTop {
+  display: block;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: $white;
+  position: absolute;
+  top: -28px;
+  right: 150px;
+  font-size: rem(35px);
+  color: $footer-bg;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  @include media-breakpoint-down(md) {
+    right: 50%;
+    margin-right: -28px;
+  }
+  &:hover {
+    color: $primary-color;
+  }
+}

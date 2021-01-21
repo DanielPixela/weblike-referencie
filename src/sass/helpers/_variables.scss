@@ -1,17 +1,21 @@
 // Colors
-$header-bg: #061621;
 $white: #fff;
 $black: #090909;
-$primary-color: #0066cc;
-$dark-grey: #333333;
+$primary-color: #3eb397;
+$dark-grey: #444444;
 $grey-bg: #fafafa;
+$body-bg: #eff0f2;
+$footer-bg: #36475a;
+$text-color: #36475a;
 
 //Fonts
-$base-font: 'Lato', sans-serif;
+$base-font: 'Poppins', sans-serif;
 $base-font-size: 16px;
 $thin-font: 100;
 $light-font: 300;
 $regular-font: 400;
+$semibold-font: 600;
+$bold-font: 700;
 $big-title-size: 50px;
 $small-title-size: 24px;
 
@@ -25,7 +29,7 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1200px,
+  xl: 1110px,
 );
 
 $grid-columns: 60;

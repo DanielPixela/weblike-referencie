@@ -6,13 +6,15 @@
 // Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-// Typography
+// Basic
 @import './basic/typography';
+@import './basic/default';
 
 // Components
 @import './components/buttons';
 @import './components/animations';
 @import './components/slider';
+@import './components/pagination';
 
 // Layout
 @import './layout/header';
@@ -20,9 +22,15 @@
 @import './layout/mobile-nav';
 
 // Pages
-@import './pages/home';
+@import './pages/portfolio';
 
 // Font awesome
 @import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
 @import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+
+// Swiper carousel
+@import '../../node_modules/swiper/swiper.scss';
+
+// Aos styles
+@import '../../node_modules/aos/src/sass/aos.scss';

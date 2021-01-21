@@ -21,7 +21,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|gif)$/,
+        test: /\.(png|jpe?g|gif|svg)$/,
         use: [
           {
             loader: 'file-loader',
@@ -33,7 +33,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
         use: [
           {
             loader: 'file-loader',
@@ -43,7 +43,7 @@ module.exports = {
             },
           },
         ],
-      },
+      }, 
     ],
   },
 
@@ -55,10 +55,12 @@ module.exports = {
       template: `${dir}/src/index.html`,
       filename: `${dir}/public/index.html`,
       chunks: ['main'],
+      minify: false,
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
+      _: 'lodash-es',
     }),
   ],
 };
