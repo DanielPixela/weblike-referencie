@@ -1,7 +1,7 @@
 {
-  "name": "bazar-app",
+  "name": "weblike-referencie",
   "version": "0.0.1",
-  "description": "Inzercia pre všetkých!",
+  "description": "Skúšobné zadanie",
   "main": "webpack.common.js",
   "scripts": {
     "dev": "webpack --config webpack.dev.js --watch",
