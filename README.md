@@ -1,3 +1,3 @@
 # weblike-referencie
 
-Toto ja taktiež text!
+Toto je ešte lepší text!
