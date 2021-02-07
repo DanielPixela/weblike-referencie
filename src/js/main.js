@@ -9,8 +9,7 @@ import '../sass/app.scss';
 import AOS from 'aos';
 
 // Import swiper carousel
-import Swiper, { Autoplay } from 'swiper';
-import { multiply, sum } from 'lodash-es';
+import Swiper, {Autoplay} from 'swiper';
 
 Swiper.use([Autoplay]);
 
@@ -102,10 +101,7 @@ const mySwiper = new Swiper('.swiper-container', {
 SCROLL TO TOP
 *********
 */
-$('.scrollTop').on('click', (event) => {
-  $('html,body').animate({ scrollTop: 0 }, 'slow');
+$('.scrollTop').on('click', (event) =>{
+  $('html,body').animate({scrollTop: 0}, 'slow');
   event.preventDefault();
 });
-
-
-
